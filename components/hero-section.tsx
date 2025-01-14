@@ -24,7 +24,7 @@ const BackgroundShape = ({ className }: { className?: string }) => {
   }, [mouseX, mouseY])
 
   const x = useTransform(mouseX, (value) => value / 20)
-  const y = useTransform(mouseY, (value) => value / 20)
+  // const y = useTransform(mouseY, (value) => value / 20)
   const yScroll = useTransform(scrollY, [0, 500], [0, 50])
 
   return (

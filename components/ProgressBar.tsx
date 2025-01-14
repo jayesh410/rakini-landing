@@ -1,6 +1,6 @@
 'use client';
 
-import React,{ useEffect, useState } from 'react';
+import React,{ useEffect} from 'react';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 import { usePathname, useSearchParams } from 'next/navigation';
