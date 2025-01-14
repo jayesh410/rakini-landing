@@ -39,7 +39,7 @@ const BackgroundShape = ({ className }: { className?: string }) => {
         ease: "linear",
         repeat: Infinity,
       }}
-      style={{ x, y, y: yScroll }}
+      style={{ x, y: yScroll }}
     />
   )
 }

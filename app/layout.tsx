@@ -7,11 +7,12 @@ import ProgressBar from "@/components/ProgressBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Rakini - Software Development Company",
-  description:
-    "We craft innovative software solutions that drive business growth and enhance user experiences.",
-};
+export const metadata = 
+  {
+    title: "Rakini - Software Development Company | Rakini Softech Pvt Ltd",
+    description:
+      "We craft innovative software solutions that drive business growth and enhance user experiences.",
+  }
 
 export default function RootLayout({
   children,
@@ -24,7 +25,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <ProgressBar/>
         <Navbar />
-        
         {children}
         <Footer />
       </body>

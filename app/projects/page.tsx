@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/navbar"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
