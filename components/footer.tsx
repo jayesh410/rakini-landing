@@ -100,8 +100,8 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail size={16} />
-              <a href="mailto:support@rakini.com">
-                <span>support@rakinisoftech.com</span>
+              <a href="mailto:rakinisoftech@gmail.com">
+                <span>rakinisoftech@gmail.com</span>
               </a>
             </div>
             <div className="flex items-center space-x-2">
