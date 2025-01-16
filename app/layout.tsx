@@ -7,7 +7,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://rakini.com"),
+  metadataBase: new URL("https://rakinisoftech.vercel.app"),
   title: "Rakini - Software Development Company | Rakini Softech Pvt Ltd",
   description:
     "We craft innovative software solutions that drive business growth and enhance user experiences.",
@@ -15,11 +15,11 @@ export const metadata = {
     title: "Rakini - Software Development Company",
     description:
       "Innovative software solutions that empower businesses with exceptional technology and user experiences.",
-    url: "https://rakini.com",
+    url: "https://rakinisoftech.vercel.app",
     siteName: "Rakini Softech Pvt Ltd",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/logo-rakini.png",
         width: 1200,
         height: 630,
         alt: "Rakini Softech - Empowering Businesses",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Rakini - Software Development Company",
     description:
       "Custom software solutions that drive business growth and enhance user experiences.",
-    images: ["/images/twitter-card.jpg"],
+    images: ["/logo-rakini.png"],
   },
 };
 

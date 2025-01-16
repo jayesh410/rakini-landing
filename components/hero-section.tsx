@@ -55,7 +55,6 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/10 to-background z-0" />
 
       {/* Interactive background shapes */}
-      <BackgroundShape className="bg-yellow-300 w-96 h-96 -bottom-48 left-1/4" />
       <BackgroundShape className="bg-blue-300 w-[500px] h-96 top-1/2 -right-48 transform -translate-y-1/2" />
       <BackgroundShape className="bg-green-300 w-96 h-96 -top-48 -left-48" />
 
