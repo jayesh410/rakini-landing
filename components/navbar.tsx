@@ -36,7 +36,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center space-x-2">
           <Image
             src={"/logo-rakini.png"}
-            alt="Rakini Logo"
+            alt="about"
             width={60}
             height={60}
             className="h-16 w-auto"

@@ -1,4 +1,8 @@
 import { Button } from "@/components/ui/button"
+export const metadata = {
+  title: "About Us - Rakini Softech Pvt Ltd",
+  description: "Learn more about Rakini Softech, our team, and our mission.",
+};
 
 export default function AboutPage() {
   return (

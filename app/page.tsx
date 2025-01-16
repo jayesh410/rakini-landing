@@ -4,6 +4,7 @@ import { ServicesSection } from "@/components/services-section"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import ContactSection from "@/components/contact"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -13,13 +14,22 @@ export default function Home() {
       <ServicesSection />
       
       {/* About Section Preview */}
-      <section className="py-20 grid md:grid-cols-2 grid-cols-1">
+      <section className="py-20 grid md:grid-cols-2 grid-cols-1 items-center">
         <div className="container mx-auto px-5">
-          
+        <Image
+        src={"/about.png"}
+        alt="Rakini About"
+        width={100}
+        height={100}
+        className="mx-auto w-full h-[300px] rounded-lg my-8"
+        />
+
         </div>
         <div className="container mx-auto px-5">
+          
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">About Us</h2>
+
             <p className="text-muted-foreground max-w-[700px] mx-auto">
               Learn more about our company, our values, and our mission to transform ideas into digital reality.
             </p>

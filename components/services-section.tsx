@@ -1,12 +1,12 @@
 "use client"
 
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Code2, Globe, Laptop, LayoutGrid, MessagesSquare, Rocket } from 'lucide-react'
 
 const services = [
-  { icon: <Globe className="h-8 w-8" />, title: "Web Development", description: "Custom web applications built with cutting-edge technologies" },
-  { icon: <Laptop className="h-8 w-8" />, title: "Mobile Development", description: "Native and cross-platform mobile applications" },
+  { icon: <Globe className="h-8 w-8" />, title: "Web Application", description: "Custom web applications built with cutting-edge technologies" },
+  { icon: <Laptop className="h-8 w-8" />, title: "Mobile Application", description: "Native and cross-platform mobile applications" },
   { icon: <Code2 className="h-8 w-8" />, title: "Custom Software", description: "Tailored software solutions for your business needs" },
   { icon: <LayoutGrid className="h-8 w-8" />, title: "UI/UX Design", description: "User-centered design that delivers exceptional experiences" },
   { icon: <Rocket className="h-8 w-8" />, title: "DevOps", description: "Streamlined deployment and maintenance processes" },
@@ -14,12 +14,9 @@ const services = [
 ]
 
 export function ServicesSection() {
-  const { scrollY } = useScroll()
-  const parallaxY = useTransform(scrollY, [0, 600], [0, -50])
-
   return (
     <section id="services" className="py-20 bg-muted/50">
-      <motion.div style={{ y: parallaxY, transition:"0.5" }} className="container space-y-12 px-4 mx-auto">
+      <div className="container space-y-12 px-4 mx-auto">
         <div className="text-center space-y-4">
           <motion.h2 
             className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
@@ -43,7 +40,7 @@ export function ServicesSection() {
             <ServiceCard key={index} {...service} index={index} />
           ))}
         </div>
-      </motion.div>
+      </div>
     </section>
   )
 }
