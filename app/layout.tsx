@@ -8,19 +8,10 @@ import ProgressBar from "@/components/ProgressBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://rakini.com"),
   title: "Rakini - Software Development Company | Rakini Softech Pvt Ltd",
   description:
     "We craft innovative software solutions that drive business growth and enhance user experiences.",
-  keywords: [
-    "Software Development Company",
-    "Rakini Softech",
-    "Custom Software Solutions",
-    "Web Development",
-    "Mobile App Development",
-    "UI/UX Design",
-    "DevOps Services",
-  ],
-  authors: [{ name: "Rakini Softech Pvt Ltd", url: "https://rakini.com" }],
   openGraph: {
     title: "Rakini - Software Development Company",
     description:
@@ -29,30 +20,22 @@ export const metadata = {
     siteName: "Rakini Softech Pvt Ltd",
     images: [
       {
-        url: "/images/og-image.jpg", 
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Rakini Softech - Empowering Businesses",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Rakini - Software Development Company",
     description:
       "Custom software solutions that drive business growth and enhance user experiences.",
-    images: ["/images/twitter-card.jpg"], 
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  alternates: {
-    canonical: "https://rakini.com",
+    images: ["/images/twitter-card.jpg"],
   },
 };
+
 
 
 export default function RootLayout({
