@@ -17,6 +17,15 @@ export const metadata = {
       "Innovative software solutions that empower businesses with exceptional technology and user experiences.",
     url: "https://rakinisoftech.vercel.app",
     siteName: "Rakini Softech Pvt Ltd",
+    keywords: [
+      "Software Development Company",
+      "Rakini Softech",
+      "Custom Software Solutions",
+      "Web Development",
+      "Mobile App Development",
+      "UI/UX Design",
+      "DevOps Services",
+    ],
     images: [
       {
         url: "/logo-rakini.png",
