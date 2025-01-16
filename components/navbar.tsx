@@ -60,7 +60,7 @@ export function Navbar() {
         </nav>
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
-            <Button variant="secondary" size="icon">
+            <Button variant="secondary">
               <Menu className="h-6 w-6" />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
