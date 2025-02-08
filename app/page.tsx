@@ -21,7 +21,7 @@ export default function Home() {
         alt="Rakini About"
         width={100}
         height={100}
-        className="mx-auto w-full h-[300px] rounded-lg my-8"
+        className="mx-auto w-[400px] h-[400px] rounded-lg my-8"
         />
 
         </div>

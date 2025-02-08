@@ -56,7 +56,7 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Button>Get Started</Button>
+          <Button className="bg-yellow-500">Get Started</Button>
         </nav>
         <Sheet>
           <SheetTrigger asChild className="md:hidden">

@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t py-12 bg-gray-100 bg-grid-pattern bg-opacity-10">
+    <footer className="border-t py-12 bg-gray-300 bg-grid-pattern ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-6 px-5">
         {/* Logo and Copyright */}
         <div className="flex items-center space-x-2">
