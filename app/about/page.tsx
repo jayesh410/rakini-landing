@@ -1,5 +1,14 @@
 import { Button } from "@/components/ui/button"
+import { Card,CardContent } from "@/components/ui/card";
 import Image from "next/image"
+
+const projects = [
+  { title: "Mr.Parmeshwar Gapat", description: "CEO/Director", image: "1.png" },
+  { title: "Mrs.R. K. Nikam", description: "Director", image: "Group 1.png" },
+  { title: "Pravin Patil", description: "Team Leader", image: "2.png" },
+  { title: "Jayesh Pandhare", description: "Real-time monitoring dashboard for IoT devices", image: "jayesh.png" },
+]
+
 export const metadata = {
   title: "About Us - Rakini Softech Pvt Ltd",
   description: "Learn more about Rakini Softech, our team, and our mission.",
@@ -47,7 +56,37 @@ export default function AboutPage() {
 
             </div>
           </div>
+          <div className="text-center space-y-4 mb-12">
+        
+          <div className="flex min-h-screen flex-col">
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
+            Our Team
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {projects.map((project, index) => (
+              <Card key={index}>
+                <CardContent className="p-6">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={300}
+                    height={200}
+                    className="w-55 h-55 object-cover rounded-xl mb-4"
+                  />
+                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                  <p className="text-muted-foreground">{project.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
+      </section>
+    </div>
+          </div>
+        </div>
+       
       </section>
     </div>
   )
