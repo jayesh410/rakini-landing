@@ -5,8 +5,9 @@ import Image from "next/image"
 const projects = [
   { title: "Mr.Parmeshwar Gapat", description: "CEO/Director", image: "1.png" },
   { title: "Mrs.R. K. Nikam", description: "Director", image: "Group 1.png" },
+  { title: "Jayesh Pandhare", description: "Project Manager", image: "jayesh.png" },
   { title: "Pravin Patil", description: "Team Leader", image: "2.png" },
-  { title: "Jayesh Pandhare", description: "Real-time monitoring dashboard for IoT devices", image: "jayesh.png" },
+ 
 ]
 
 export const metadata = {
